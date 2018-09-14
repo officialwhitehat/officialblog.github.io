@@ -1,0 +1,157 @@
+.img-circle {
+	width: 100%;
+	height: 100%;
+	display: block;
+	transition: transform .2s;
+}
+.img-rounded {
+	width: 80%;
+	height:80%;
+}
+.bg-1 {
+	background-image: url("bg.jpg");
+	background-color: rgba(0, 0, 0, 0);
+	height: 100%;
+	color: #424242;
+
+}
+.navbar {
+	margin: 0px 0px;
+}
+ .bg-2 { 
+      background-color: #ffffff;
+      color: #474e5d;
+  }
+  .bg-3 { 
+      background-color: #474e5d;
+      color: #ffffff;
+  }	
+  .container-fluid {
+  	padding-top: 70px;
+  	padding-bottom: 70px;
+  }
+  .navbar {
+  	background-color: rgba(255, 255, 255, 0.5);
+  	padding-top: 0px;
+    padding-bottom: 0px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 13px;
+    letter-spacing: 5px;
+    color: #424242;
+  }
+  .navbar-nav li a:hover {
+  	background-color: rgba(66, 66, 66, 0.5);
+    color: #ffffff !important;
+    transform: scale(1.1);
+}
+  .navbar-nav li a {
+  	color: #000000;
+  	transition: transform .2s;
+  }
+  .jumbotron {
+    background: rgba(204, 204, 204, 0.3);
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 30%;
+    height: 160%;
+    color: black;
+    transition: transform .2s;
+
+}
+.icon-bar {
+   background-color:#424242 !important;
+}
+.img-circle:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.btn-info {
+	color: #424242;
+    background-color: rgba(255,255,255,0);
+    border: 0px;
+}
+
+    .btn-info:hover {
+        color: white;
+        background-color: rgba(255,255,255,0.5);
+    }
+.modal-backdrop.in {
+	opacity: 0.5;
+}
+.logo {
+    color: #ffffff;
+    font-size: 200px;
+}
+.logo2 {
+    color: #474e5d;
+    font-size: 200px;
+}
+.logo-small {
+    color: #474e5d;
+    font-size: 50px;
+}
+.bg-grey {
+    background-color: #ffffff; 
+    color: #7f7f7f;
+}
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+    background-color: #ffffff;
+ }
+
+.thumbnail img {
+    width: 70%;
+    height: 70%;
+    margin-bottom: 10px;
+}
+.img-thumbnail {
+  transition: transform .2s;
+}
+.img-thumbnail:hover {
+    transform: scale(1.1);
+}
+.bg-4 {
+  background-color: #7f7f7f;
+}
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #7f7f7f;
+}
+
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide; 
+    /* The duration of the animation */
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible; 
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    } 
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
